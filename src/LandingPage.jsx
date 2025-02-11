@@ -1,5 +1,4 @@
 import React from "react";
-import SkylineAnimation from "./SkylineAnimation"; // Import the SkylineAnimation component
 import logo from "./logo.png"; // Import logo from src folder
 
 export default function LandingPage() {
@@ -25,8 +24,6 @@ export default function LandingPage() {
           zIndex: 30, // Ensure logo appears above other content
         }}
       />
-      {/* Add the skyline animation */}
-      <SkylineAnimation />
     </div>
   );
 }
